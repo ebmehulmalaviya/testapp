@@ -17,31 +17,6 @@
   ],
   "challan": [
     {
-      "name": "MEHUL ",
-      "dates": "2024-01-11",
-      "inputSets": [
-        {
-          "banner": "asdsadss",
-          "ft": "432",
-          "rate": "324",
-          "total": "139968.00"
-        },
-        {
-          "banner": "fdsfd",
-          "ft": "32",
-          "rate": "324",
-          "total": "10368.00"
-        },
-        {
-          "banner": "sdfsdf",
-          "ft": "32424",
-          "rate": "324",
-          "total": "10505376.00"
-        }
-      ],
-      "id": "4c74"
-    },
-    {
       "id": "592f",
       "name": "MEHUL",
       "dates": "2024-01-04",

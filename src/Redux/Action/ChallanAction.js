@@ -36,7 +36,7 @@ export const getChallanObj = (data) => {
 
 export const getchallanData = () => {
     return (dispatch) => {
-        axios.get('http://localhost:3000/challan')
+        axios.get('http://localhost:3004/challan')
             .then((res) => {
                 console.log('getChallan', res.data)
                 dispatch(getChallan(res.data))
@@ -45,7 +45,7 @@ export const getchallanData = () => {
 }
 export const newAddChallan = (data) => {
     return (dispatch) => {
-        axios.post("http://localhost:3000/challan", data)
+        axios.post("http://localhost:3004/challan", data)
             .then(async (res) => {
                 await dispatch(addChallan(res.data))
                 await dispatch(getchallanData())
@@ -54,7 +54,7 @@ export const newAddChallan = (data) => {
 }
 export const getChallanObject = (id) => {
     return (dispatch) => {
-        axios.get(`http://localhost:3000/challan/${id}`)
+        axios.get(`http://localhost:3004/challan/${id}`)
             .then((res) => {
                 console.log('get single object', res.data)
                 dispatch(getChallanObj(res.data))
@@ -67,7 +67,7 @@ export const getChallanObject = (id) => {
 export const editechallans = (id, payload) => {
     console.log('api edite data', id, payload);
     return (dispatch) => {
-        axios.put('http://localhost:3000/challan/' + id, payload)
+        axios.put('http://localhost:3004/challan/' + id, payload)
             .then(async (res) => {
                 await dispatch(editchallan(res.data))
                 await dispatch(getchallanData())
@@ -80,7 +80,7 @@ export const editechallans = (id, payload) => {
 
 export const removeChallan = (id) => {
     return (dispatch) => {
-        axios.delete(`http://localhost:3000/challan/${id}`)
+        axios.delete(`http://localhost:3004/challan/${id}`)
             .then(async (res) => {
                 await dispatch(deleteChallan(res.data));
                 await dispatch(getchallanData())
