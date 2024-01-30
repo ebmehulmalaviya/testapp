@@ -1,0 +1,83 @@
+{
+  "user": [
+    {
+      "name": "Akilash",
+      "email": "ak@in.com",
+      "phone": "789900",
+      "role": "staff",
+      "id": 4
+    },
+    {
+      "name": "130 1st ave",
+      "email": "Malaviyamehulll456789@gmail.com",
+      "phone": "09601859010",
+      "role": "staff",
+      "id": 5
+    }
+  ],
+  "challan": [
+    {
+      "name": "MEHUL ",
+      "dates": "2024-01-11",
+      "inputSets": [
+        {
+          "banner": "asdsadss",
+          "ft": "432",
+          "rate": "324",
+          "total": "139968.00"
+        },
+        {
+          "banner": "fdsfd",
+          "ft": "32",
+          "rate": "324",
+          "total": "10368.00"
+        },
+        {
+          "banner": "sdfsdf",
+          "ft": "32424",
+          "rate": "324",
+          "total": "10505376.00"
+        }
+      ],
+      "id": "4c74"
+    },
+    {
+      "id": "592f",
+      "name": "MEHUL",
+      "dates": "2024-01-04",
+      "inputSets": [
+        {
+          "banner": "asasd",
+          "ft": "324",
+          "rate": "324",
+          "total": "104976.00"
+        },
+        {
+          "banner": "324",
+          "ft": "324",
+          "rate": "234",
+          "total": "75816.00"
+        },
+        {
+          "banner": "324",
+          "ft": "3243",
+          "rate": "324",
+          "total": "1050732.00"
+        }
+      ]
+    },
+    {
+      "id": "b37a",
+      "name": "MEHUL 123",
+      "dates": "2024-01-19",
+      "inputSets": [
+        {
+          "banner": "",
+          "ft": "",
+          "rate": "",
+          "total": "0"
+        }
+      ]
+    }
+  ]
+}

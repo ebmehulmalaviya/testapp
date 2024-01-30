@@ -13,13 +13,13 @@ const Updateuser = () => {
     const navigate = useNavigate();
     const { code } = useParams();
 
-    const userobj=useSelector((state)=>state.user.userobj)
+    const userobj = useSelector((state) => state.user.userobj)
 
 
     const handlesubmit = (e) => {
         e.preventDefault();
         const userobj = { id, name, email, phone, role };
-        dispatch(FunctionUpdateUser(userobj,id));
+        dispatch(FunctionUpdateUser(userobj, id));
         navigate('/user');
     }
 
@@ -28,7 +28,7 @@ const Updateuser = () => {
     }, [])
 
     useEffect(() => {
-        if(userobj){
+        if (userobj) {
             idchange(userobj.id);
             namechange(userobj.name);
             emailchange(userobj.email);
